@@ -1,0 +1,55 @@
+body {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  font: bold 16px/24px Arial, sans-serif;
+}
+
+.structural {
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  color: #333333;
+  font-size: 36px;
+}
+
+h2 {
+  color: #666666;
+  font-size: 24px;
+}
+
+main {
+  height: 70vh;
+}
+
+img {
+  border: 2px solid #cccccc;
+  width: 90%;
+  height: 80%;
+}
+
+figure {
+  background-color: #f2f2f2;
+  width: 45%;
+  height: 60%;
+  margin: auto;
+  padding: 10px;
+}
+
+figure:nth-of-type(1) {
+  float: right;
+}
+
+figure:nth-of-type(2) {
+  float: left;
+}
+
+section {
+  clear: both;
+}
+
+figcaption {
+  font-weight: bold;
+  
